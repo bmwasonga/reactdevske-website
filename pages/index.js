@@ -2,7 +2,11 @@ import React from 'react';
 import HomePage from '../Components/Pages/HomePage/HomePage';
 
 const index = () => {
-	return <HomePage />;
+	return (
+		<div className='App'>
+			<HomePage />
+		</div>
+	);
 };
 
 export default index;

@@ -1,11 +1,16 @@
 import React from 'react'
 import logo from '../../../public/reactdevske.svg';
+import Image from 'next/image';
 
 function HomePage() {
     return (
         <div className="App">
            <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <div className="App-logo">
+          <Image src={logo} alt="logo" width={400} height={400} />
+        </div>
+        
         <p>
           Contribute to creating The Reactjs Developer Community Kenya Website Here 
         </p>
